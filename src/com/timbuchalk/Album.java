@@ -31,6 +31,8 @@ public class Album {
         return false;
    }
 
+
+   // checks the datastructure to see a given song exist.
    private Song findSong ( String titileSong){
         for ( Song checkSong : this.songs){
             if ( checkSong.getTitleSong().equals(titileSong)){
